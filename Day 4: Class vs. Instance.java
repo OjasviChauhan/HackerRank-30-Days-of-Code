@@ -20,7 +20,7 @@ public class Person {
             System.out.println("You are old.");
 	}
 	public void yearPasses() {
-  		age += 1;
+  		age ++;
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
