@@ -13,7 +13,6 @@ class Person {
 	}	 
 }
 class Student extends Person{
-	private int[] testScores;
     int avg=0;
     int scores[];
     Student(String firstName, String lastName, int id, int []scores1){
