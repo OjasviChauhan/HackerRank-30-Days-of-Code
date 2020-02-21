@@ -9,7 +9,7 @@ class Person {
 		this.idNumber = identification;
 	}
 	public void printPerson(){
-		 System.out.println("Name: " + lastName + ", " + firstName + 	"\nID: " + idNumber); 
+		 System.out.println("Name: " + lastName + ", " + firstName + "\nID: " + idNumber); 
 	}	 
 }
 class Student extends Person{
