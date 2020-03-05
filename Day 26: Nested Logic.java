@@ -8,7 +8,6 @@ public class Solution {
             A[i] = sc.nextInt();
         for(int i=0;i<3;i++)
             D[i] = sc.nextInt();
-
         if(A[2] < D[2]) System.out.println(0);
         else if(A[2] == D[2]){
             if(A[1]<D[1]) System.out.println(0);
