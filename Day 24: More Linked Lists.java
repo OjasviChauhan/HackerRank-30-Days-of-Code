@@ -6,13 +6,12 @@ class Node{
 	Node(int d){
         data=d;
         next=null;
-    }
-	
+    }	
 }
 class Solution
 {
     public static Node removeDuplicates(Node head) {
-   if (head == null)
+   	if (head == null)
             return head;
         Set<Integer> s = new HashSet<Integer>();
         Node node = head;
@@ -31,8 +30,7 @@ class Solution
         return newHead;
     }
 
-	 public static  Node insert(Node head,int data)
-     {
+	public static  Node insert(Node head,int data){
         Node p=new Node(data);			
         if(head==null)
             head=p;
@@ -44,7 +42,6 @@ class Solution
             while(start.next!=null)
                 start=start.next;
             start.next=p;
-
         }
         return head;
     }
@@ -57,8 +54,7 @@ class Solution
                   start=start.next;
               }
         }
-        public static void main(String args[])
-        {
+        public static void main(String args[]){
               Scanner sc=new Scanner(System.in);
               Node head=null;
               int T=sc.nextInt();
@@ -68,6 +64,5 @@ class Solution
               }
               head=removeDuplicates(head);
               display(head);
-
        }
     }
